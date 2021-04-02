@@ -22,7 +22,7 @@ app.use(express.json());
 app.use(cors());
 
 //db config
-const mongoURI ="mongodb+srv://ahmet:semra123@cluster0.z6rco.mongodb.net/slack_database?retryWrites=true&w=majority";
+const mongoURI ="YOUR CLUSTER LİNK";
 
 mongoose.connect(mongoURI,{
     useNewUrlParser: true,
